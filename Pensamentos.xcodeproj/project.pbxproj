@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC26F7F728A349FF00581CCD /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = AC26F7F628A349FF00581CCD /* quotes.json */; };
+		AC55EB3028AF2C8500E7C607 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55EB2F28AF2C8500E7C607 /* UserDefaultsKeys.swift */; };
+		AC7042FF28AF39E600199313 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC7042FE28AF39E600199313 /* Settings.bundle */; };
+		AC70430128AF405200199313 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70430028AF405200199313 /* NotificationManager.swift */; };
 		ACBE4D08289CB84A00C46A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D07289CB84A00C46A97 /* AppDelegate.swift */; };
 		ACBE4D0A289CB84A00C46A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D09289CB84A00C46A97 /* SceneDelegate.swift */; };
 		ACBE4D0C289CB84A00C46A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D0B289CB84A00C46A97 /* ViewController.swift */; };
@@ -17,6 +21,11 @@
 		ACBE4D22289CB84B00C46A97 /* PensamentosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D21289CB84B00C46A97 /* PensamentosTests.swift */; };
 		ACBE4D2C289CB84B00C46A97 /* PensamentosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D2B289CB84B00C46A97 /* PensamentosUITests.swift */; };
 		ACBE4D2E289CB84B00C46A97 /* PensamentosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE4D2D289CB84B00C46A97 /* PensamentosUITestsLaunchTests.swift */; };
+		ACCB864828A5FB4200D76463 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB864728A5FB4200D76463 /* QuotesViewController.swift */; };
+		ACCB864A28A5FB7000D76463 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB864928A5FB7000D76463 /* SettingsViewController.swift */; };
+		ACCB864D28A601E800D76463 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB864C28A601E800D76463 /* Quote.swift */; };
+		ACCB865028A6024C00D76463 /* QuotesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB864F28A6024C00D76463 /* QuotesManager.swift */; };
+		ACCB865228A6029300D76463 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCB865128A6029300D76463 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC26F7F628A349FF00581CCD /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = quotes.json; path = "../../../../Downloads/Arquivos Pensamentos/quotes.json"; sourceTree = "<group>"; };
+		AC26F7F828A34A0D00581CCD /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Savoye LET.ttc"; path = "../../../../Downloads/Arquivos Pensamentos/Savoye LET.ttc"; sourceTree = "<group>"; };
+		AC26F7FA28A34A3700581CCD /* Savoye LET.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Savoye LET.ttc"; sourceTree = "<group>"; };
+		AC26F7FB28A34A3700581CCD /* quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
+		AC55EB2F28AF2C8500E7C607 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		AC7042FE28AF39E600199313 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		AC70430028AF405200199313 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		ACBE4D04289CB84A00C46A97 /* Pensamentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pensamentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE4D07289CB84A00C46A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACBE4D09289CB84A00C46A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,11 @@
 		ACBE4D27289CB84B00C46A97 /* PensamentosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PensamentosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE4D2B289CB84B00C46A97 /* PensamentosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensamentosUITests.swift; sourceTree = "<group>"; };
 		ACBE4D2D289CB84B00C46A97 /* PensamentosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PensamentosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ACCB864728A5FB4200D76463 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		ACCB864928A5FB7000D76463 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		ACCB864C28A601E800D76463 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		ACCB864F28A6024C00D76463 /* QuotesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesManager.swift; sourceTree = "<group>"; };
+		ACCB865128A6029300D76463 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC26F7F928A34A2C00581CCD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC26F7FB28A34A3700581CCD /* quotes.json */,
+				AC26F7FA28A34A3700581CCD /* Savoye LET.ttc */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		ACBE4CFB289CB84A00C46A97 = {
 			isa = PBXGroup;
 			children = (
@@ -105,10 +135,16 @@
 				ACBE4D09289CB84A00C46A97 /* SceneDelegate.swift */,
 				ACBE4D0B289CB84A00C46A97 /* ViewController.swift */,
 				ACBE4D0D289CB84A00C46A97 /* Main.storyboard */,
+				ACCB864B28A5FBDE00D76463 /* Controlles */,
+				AC26F7F628A349FF00581CCD /* quotes.json */,
+				AC26F7F828A34A0D00581CCD /* Savoye LET.ttc */,
+				AC26F7F928A34A2C00581CCD /* Files */,
 				ACBE4D13289CB84B00C46A97 /* Assets.xcassets */,
 				ACBE4D15289CB84B00C46A97 /* LaunchScreen.storyboard */,
 				ACBE4D18289CB84B00C46A97 /* Info.plist */,
 				ACBE4D10289CB84A00C46A97 /* Pensamentos.xcdatamodeld */,
+				ACCB864E28A6021B00D76463 /* Models */,
+				AC7042FE28AF39E600199313 /* Settings.bundle */,
 			);
 			path = Pensamentos;
 			sourceTree = "<group>";
@@ -128,6 +164,27 @@
 				ACBE4D2D289CB84B00C46A97 /* PensamentosUITestsLaunchTests.swift */,
 			);
 			path = PensamentosUITests;
+			sourceTree = "<group>";
+		};
+		ACCB864B28A5FBDE00D76463 /* Controlles */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB864928A5FB7000D76463 /* SettingsViewController.swift */,
+				ACCB864728A5FB4200D76463 /* QuotesViewController.swift */,
+			);
+			path = Controlles;
+			sourceTree = "<group>";
+		};
+		ACCB864E28A6021B00D76463 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ACCB864C28A601E800D76463 /* Quote.swift */,
+				ACCB864F28A6024C00D76463 /* QuotesManager.swift */,
+				ACCB865128A6029300D76463 /* Configuration.swift */,
+				AC55EB2F28AF2C8500E7C607 /* UserDefaultsKeys.swift */,
+				AC70430028AF405200199313 /* NotificationManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC26F7F728A349FF00581CCD /* quotes.json in Resources */,
 				ACBE4D17289CB84B00C46A97 /* LaunchScreen.storyboard in Resources */,
+				AC7042FF28AF39E600199313 /* Settings.bundle in Resources */,
 				ACBE4D14289CB84B00C46A97 /* Assets.xcassets in Resources */,
 				ACBE4D0F289CB84A00C46A97 /* Main.storyboard in Resources */,
 			);
@@ -262,9 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBE4D0C289CB84A00C46A97 /* ViewController.swift in Sources */,
+				ACCB864828A5FB4200D76463 /* QuotesViewController.swift in Sources */,
+				AC55EB3028AF2C8500E7C607 /* UserDefaultsKeys.swift in Sources */,
+				ACCB865028A6024C00D76463 /* QuotesManager.swift in Sources */,
+				AC70430128AF405200199313 /* NotificationManager.swift in Sources */,
+				ACCB865228A6029300D76463 /* Configuration.swift in Sources */,
 				ACBE4D12289CB84A00C46A97 /* Pensamentos.xcdatamodeld in Sources */,
 				ACBE4D08289CB84A00C46A97 /* AppDelegate.swift in Sources */,
 				ACBE4D0A289CB84A00C46A97 /* SceneDelegate.swift in Sources */,
+				ACCB864D28A601E800D76463 /* Quote.swift in Sources */,
+				ACCB864A28A5FB7000D76463 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

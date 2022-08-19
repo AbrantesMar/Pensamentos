@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Pensamentos
 //
-//  Created by Marcio Henrique Nunes Abrantes on 04/08/22.
+//  Created by Marcio Abrantes on 04/08/22.
 //
 
 import UIKit

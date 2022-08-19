@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Pensamentos
 //
-//  Created by Marcio Henrique Nunes Abrantes on 04/08/22.
+//  Created by Marcio Abrantes on 04/08/22.
 //
 
 import UIKit
@@ -10,8 +10,6 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -75,6 +73,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        NotificationManager.shared.post(name: "Refresh")
     }
 
 }
